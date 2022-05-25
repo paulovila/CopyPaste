@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CopyPaste.Shared", "CopyPaste\CopyPaste.Shared\CopyPaste.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{1C01CCF2-C759-4B13-B297-FDB547064561}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyPaste.Wasm", "CopyPaste\CopyPaste.Wasm\CopyPaste.Wasm.csproj", "{6CEC5784-8513-4EF7-93F6-9AEA347089AF}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CP.Shared", "CP\CP.Shared\CP.Shared.shproj", "{DFB0C5E7-1E78-4CE8-BA23-EA9293E43D5F}"
 EndProject
@@ -15,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.Wasm", "CP\CP.Wasm\CP.Wa
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		CopyPaste\CopyPaste.Shared\CopyPaste.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
-		CopyPaste\CopyPaste.Shared\CopyPaste.Shared.projitems*{6cec5784-8513-4ef7-93f6-9aea347089af}*SharedItemsImports = 5
 		CP\CP.Shared\CP.Shared.projitems*{8b58cdae-4031-43e0-b768-7ba5b525c90d}*SharedItemsImports = 5
 		CP\CP.Shared\CP.Shared.projitems*{dfb0c5e7-1e78-4ce8-ba23-ea9293e43d5f}*SharedItemsImports = 13
 	EndGlobalSection
@@ -25,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6CEC5784-8513-4EF7-93F6-9AEA347089AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CEC5784-8513-4EF7-93F6-9AEA347089AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CEC5784-8513-4EF7-93F6-9AEA347089AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CEC5784-8513-4EF7-93F6-9AEA347089AF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B58CDAE-4031-43E0-B768-7BA5B525C90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B58CDAE-4031-43E0-B768-7BA5B525C90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B58CDAE-4031-43E0-B768-7BA5B525C90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,7 +28,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6CEC5784-8513-4EF7-93F6-9AEA347089AF} = {1C01CCF2-C759-4B13-B297-FDB547064561}
 		{8B58CDAE-4031-43E0-B768-7BA5B525C90D} = {1C01CCF2-C759-4B13-B297-FDB547064561}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
